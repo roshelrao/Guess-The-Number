@@ -11,6 +11,8 @@ num =0
 Label1 = Label(window, text="Guess the number")
 Label1.pack()
 
+#generate random number
+
 random_num = random.randint(0,100)
 print(random_num)
 
